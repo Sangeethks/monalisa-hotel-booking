@@ -52,10 +52,6 @@ module.exports = {
             filename: 'index.html',
             template: 'src/index.html'
         }),
-        new HtmlWebpackPlugin({
-            filename: 'components.html',
-            template: 'src/components.html'
-        }),
         new CleanWebpackPlugin(['dist']),
         new webpack.ProvidePlugin({
             $: 'jquery',
